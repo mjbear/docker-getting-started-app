@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+docker build -t getting-started .
+
+echo -e ''
+
+# start the Node.js web app container
+#  -d = detach/background
+#  -p = publish (port map)
+docker run -d -p 127.0.0.1:3000:3000 getting-started
+
+echo -e '\nOpen http://localhost:3000 in your browser'
+
+docker ps
