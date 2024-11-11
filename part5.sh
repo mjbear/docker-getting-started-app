@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 # Part 5
+# https://docs.docker.com/get-started/workshop/06_bind_mounts/
+
 # If you have SELinux, put it in permissive mode
 docker run -it --mount type=bind,src="$(pwd)",target=/src ubuntu bash
 

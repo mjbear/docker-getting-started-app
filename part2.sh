@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 # Part 2
+# https://docs.docker.com/get-started/workshop/03_updating_app/
+
 cid=$(docker ps | awk '/:3000/{print $1}')
 docker stop ${cid}
 docker rm ${cid}

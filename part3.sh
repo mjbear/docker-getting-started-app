@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 # Part 3
+# https://docs.docker.com/get-started/workshop/04_sharing_app/
+
 echo -e 'Register for Docker Hub account and create new repo\n'
 
 # docker push USERNAME/getting-started:tagname

@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 # Part 4
+# https://docs.docker.com/get-started/workshop/05_persisting_data/
+
 docker run --rm alpine touch greeting.txt
 docker run --rm alpine stat greeting.txt
 echo -e '\nWill return a stat error that the file does not exist\n'

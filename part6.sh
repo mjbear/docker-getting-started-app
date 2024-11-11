@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # Part 6
+# https://docs.docker.com/get-started/workshop/07_multi_container/
 
 # Two ways to network a container:
 # 1. assign when starting the container

@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 # Part 1
+# https://docs.docker.com/get-started/workshop/02_our_app/
+
 docker build -t getting-started .
 
 echo -e ''
